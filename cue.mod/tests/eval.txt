@@ -1,0 +1,7 @@
+# Verify that eval works as expect
+
+cue eval ./...
+cmp stdout $WORK/stdout.golden
+
+-- stdout.golden --
+x: 5
