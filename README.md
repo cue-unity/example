@@ -5,14 +5,14 @@ using different versions of CUE.
 
 `unity-example` is a minimal example CUE project that defines a `unity` manifest and tests. `unity-example` uses `unity`
 to [test itself in a GitHub
-workflow](https://github.com/cue-sh/unity-example/blob/50254fe95093f9460a0e12debf7b4684763a1a5c/.github/workflows/test.yml#L27-L28),
+workflow](https://github.com/cue-lang/unity-example/blob/50254fe95093f9460a0e12debf7b4684763a1a5c/.github/workflows/test.yml#L27-L28),
 and `unity-example` is a [project in the `unity`
-corpus](https://github.com/cue-sh/unity/tree/3ca7e170a42793a20104a3c82cb56d204e8894ed/projects/github.com/cue-sh).
+corpus](https://github.com/cue-sh/unity/tree/3ca7e170a42793a20104a3c82cb56d204e8894ed/projects/github.com/cue-lang).
 
 ### Understanding `unity-example`
 
 Like any project that is tested using `unity`, `unity-example` declares its manifest as a CUE package value in
-[`cue.mod/tests`](https://github.com/cue-sh/unity-example/blob/50254fe95093f9460a0e12debf7b4684763a1a5c/cue.mod/tests/tests.cue)
+[`cue.mod/tests`](https://github.com/cue-lang/unity-example/blob/50254fe95093f9460a0e12debf7b4684763a1a5c/cue.mod/tests/tests.cue)
 that satisfies the
 [`#Manifest`](https://github.com/cue-sh/unity/blob/de07b0f83e70913697b2f70f660db888d11059d4/unity_go_gen.cue#L9-L14)
 definition:
@@ -29,7 +29,7 @@ correct, or more precisely against which its `unity` tests are known to pass.
 The `cue.mod/tests` directory also contains a number of
 [`testscript`](https://pkg.go.dev/github.com/rogpeppe/go-internal/testscript) test scripts. `unity-example` defines a
 basic
-[`eval.txt`](https://github.com/cue-sh/unity-example/blob/50254fe95093f9460a0e12debf7b4684763a1a5c/cue.mod/tests/eval.txt)
+[`eval.txt`](https://github.com/cue-lang/unity-example/blob/50254fe95093f9460a0e12debf7b4684763a1a5c/cue.mod/tests/eval.txt)
 test script as follows:
 
 ```
