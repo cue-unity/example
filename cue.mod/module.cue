@@ -1,1 +1,1 @@
-module: "github.com/cue-sh/unity-example"
+module: "github.com/cue-lang/unity-example"
