@@ -1,8 +1,8 @@
-module github.com/cue-lang/unity-example
+module github.com/cue-unity/example
 
 go 1.16
 
 require (
-	cuelang.org/go v0.3.2
-	github.com/cue-sh/unity v0.0.0-20210426155349-ff10fe17f32a
+	cuelang.org/go v0.4.1
+	github.com/cue-unity/unity v0.0.0-20220115151240-18b546c6b6ab
 )

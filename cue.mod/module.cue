@@ -1,1 +1,1 @@
-module: "github.com/cue-lang/unity-example"
+module: "github.com/cue-unity/example"
